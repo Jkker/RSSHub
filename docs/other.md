@@ -1027,3 +1027,15 @@ type 为 all 时，category 参数不支持 cost 和 free
 <Route author="Jkker" example="/oceanengine/index/教材/toutiao" path="/oceanengine/index/:keyword/toutiao" :paramsDesc="['热点关键词']" anticrawler="1" puppeteer="1"/>
 
 爬取巨量算数近 6 个月的头条指数，解密后提取指数波峰当日的热门搜索关键词，生成为 RSS。可用于追踪新闻热点事件。
+
+## 热搜聚合
+
+### 关键词聚合追踪
+
+追踪各大热搜榜上包含特定关键词的条目。
+
+当前收录榜单：_微博热搜_、_今日头条热搜_、_知乎热搜_、_知乎热门视频_、_知乎热门话题_。
+
+数据源: [trending-in-one](https://github.com/huqi-pr/trending-in-one)
+
+<Route author="Jkker" example="/trending/唐山,打人/3" path="/trending/:keywords/:numberOfDays?" radar="1" :paramsDesc="['通过逗号区隔的关键词列表', '向前追溯的天数，默认为3天']"/>
