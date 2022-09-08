@@ -1169,6 +1169,18 @@
     "/gamersecret/:type?/:category?": [
         "nczitzk"
     ],
+    "/gamme/news/:category?": [
+        "TonyRL"
+    ],
+    "/gamme/news/tag/:tag": [
+        "TonyRL"
+    ],
+    "/gamme/sexynews/:category?": [
+        "TonyRL"
+    ],
+    "/gamme/sexynews/tag/:tag": [
+        "TonyRL"
+    ],
     "/gaze/update/:mid": [
         "zytomorrow"
     ],
@@ -2229,6 +2241,18 @@
     "/macfilos/blog": [
         "nczitzk"
     ],
+    "/manhuagui/comic/:id/:chapterCnt?": [
+        "MegrezZhu"
+    ],
+    "/manhuagui/mhgui/comic/:id/:chapterCnt?": [
+        "btdwv"
+    ],
+    "/manhuagui/subscribe": [
+        "shininome"
+    ],
+    "/manhuagui/twmanhuagui/comic/:id/:chapterCnt?": [
+        "btdwv"
+    ],
     "/mcachicago/exhibitions": [
         "chazeon"
     ],
@@ -2430,6 +2454,9 @@
     ],
     "/nju/dafls": [
         "ret-1"
+    ],
+    "/nju/exchangesys": [
+        "cqjjjzr"
     ],
     "/nju/gra": [
         "ret-1"
@@ -2859,6 +2886,12 @@
     "/qbittorrent/news": [
         "TonyRL"
     ],
+    "/qianzhan/analyst/column/:type?": [
+        "moke8"
+    ],
+    "/qianzhan/analyst/rank/:type?": [
+        "moke8"
+    ],
     "/qidian/author/:id": [
         "miles170"
     ],
@@ -3286,10 +3319,10 @@
         "TonyRL",
         "ETiV"
     ],
-    "/techflow520/newsflash": [
+    "/techflowpost/express": [
         "nczitzk"
     ],
-    "/techflow520/:category?": [
+    "/techflowpost/": [
         "nczitzk"
     ],
     "/telegram/telegram/channel/:username/:routeParams?": [
@@ -3895,6 +3928,12 @@
     "/yunspe/newsflash": [
         "x2009again"
     ],
+    "/yxdown/news/:category?": [
+        "nczitzk"
+    ],
+    "/yxdown/recommend": [
+        "nczitzk"
+    ],
     "/yxdzqb/:type": [
         "LogicJake",
         "nczitzk"
@@ -4374,9 +4413,6 @@
     "/xiachufang/popular/:timeframe?": [],
     "/eeo/:column?/:category?": [],
     "/tencentvideo/playlist/:id": [],
-    "/manhuagui/comic/:id/:chapterCnt?": [],
-    "/mhgui/comic/:id/:chapterCnt?": [],
-    "/twmanhuagui/comic/:id/:chapterCnt?": [],
     "/copymanga/comic/:id/:chapterCnt?": [],
     "/copymanga/comic/:id": [],
     "/cartoonmad/comic/:id": [],
@@ -5364,8 +5400,6 @@
     "/shinybbs": [],
     "/tianyancha/hot": [],
     "/kingarthur/:type": [],
-    "/yxdown/recommend": [],
-    "/yxdown/news/:category?": [],
     "/babehub/search/:keyword?": [],
     "/babehub/:category?": [],
     "/sznews/press": [],

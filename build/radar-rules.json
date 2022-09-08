@@ -4649,6 +4649,45 @@
       }
     ]
   },
+  "gamme.com.tw": {
+    "_name": "卡卡洛普",
+    "news": [
+      {
+        "title": "宅宅新聞 - 分類",
+        "docs": "https://docs.rsshub.app/new-media.html#ka-ka-luo-pu",
+        "source": [
+          "/category/:category",
+          "/"
+        ]
+      },
+      {
+        "title": "宅宅新聞 - 標籤",
+        "docs": "https://docs.rsshub.app/new-media.html#ka-ka-luo-pu",
+        "source": [
+          "/tag/:tag"
+        ],
+        "target": "/gamme/news/tag/:tag"
+      }
+    ],
+    "sexynews": [
+      {
+        "title": "西斯新聞 - 分類",
+        "docs": "https://docs.rsshub.app/new-media.html#ka-ka-luo-pu",
+        "source": [
+          "/category/:category",
+          "/"
+        ]
+      },
+      {
+        "title": "西斯新聞 - 標籤",
+        "docs": "https://docs.rsshub.app/new-media.html#ka-ka-luo-pu",
+        "source": [
+          "/tag/:tag"
+        ],
+        "target": "/gamme/sexynews/tag/:tag"
+      }
+    ]
+  },
   "gaze.run": {
     "_name": "注视影视",
     ".": [
@@ -9247,6 +9286,48 @@
       }
     ]
   },
+  "manhuagui.com": {
+    "_name": "漫画柜",
+    "www": [
+      {
+        "title": "漫画柜个人订阅",
+        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua",
+        "source": "/user/book/shelf",
+        "target": "/manhuagui/subscribe"
+      },
+      {
+        "title": "漫画更新",
+        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua",
+        "source": "/comic/:id/",
+        "target": "/manhuagui/comic/:id"
+      }
+    ],
+    "tw": [
+      {
+        "title": "漫画更新",
+        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua",
+        "source": "/comic/:id/",
+        "target": "/manhuagui/twmanhuagui/comic/:id"
+      }
+    ]
+  },
+  "mhgui.com": {
+    "_name": "漫画柜镜像站",
+    "www": [
+      {
+        "title": "漫画柜个人订阅",
+        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua",
+        "source": "/user/book/shelf",
+        "target": "/manhuagui/subscribe"
+      },
+      {
+        "title": "漫画更新",
+        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua",
+        "source": "/comic/:id/",
+        "target": "/manhuagui/comic/:id"
+      }
+    ]
+  },
   "mcachicago.org": {
     "_name": "MCA Chicago",
     ".": [
@@ -10485,6 +10566,7 @@
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-ben-ke-ying-xin",
         "source": [
           "/tzgg/index.html",
+          "/tzgg",
           "/"
         ],
         "target": "/nju/admission"
@@ -10501,11 +10583,23 @@
         "target": "/nju/dafls"
       }
     ],
+    "elite": [
+      {
+        "title": "本科生交换生系统",
+        "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-ben-ke-sheng-yuan-jiao-huan-sheng-xi-tong",
+        "source": [
+          "/exchangesystem/index/more",
+          "/exchangesystem",
+          "/"
+        ]
+      }
+    ],
     "grawww": [
       {
         "title": "研究生院",
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-yan-jiu-sheng-yuan",
         "source": [
+          "/main.htm",
           "/"
         ],
         "target": "/nju/gra"
@@ -10527,7 +10621,7 @@
         "title": "本科生院",
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-ben-ke-sheng-yuan",
         "source": [
-          "/"
+          "/:type/list.htm"
         ],
         "target": "/nju/jw/:type"
       }
@@ -10537,7 +10631,7 @@
         "title": "人才招聘网",
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-ren-cai-zhao-pin-wang",
         "source": [
-          "/"
+          "/sylm/:type/index.html"
         ],
         "target": "/nju/rczp/:type"
       }
@@ -10547,9 +10641,8 @@
         "title": "科学技术处",
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-ke-xue-ji-shu-chu",
         "source": [
-          "/"
-        ],
-        "target": "/nju/scit/:type"
+          "/:type/list.htm"
+        ]
       }
     ],
     "webplus": [
@@ -10567,9 +10660,8 @@
         "title": "招标办公室",
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-zhao-biao-ban-gong-shi",
         "source": [
-          "/"
-        ],
-        "target": "/nju/zbb/:type"
+          "/:type/index.chtml"
+        ]
       }
     ],
     "zcc": [
@@ -10577,6 +10669,8 @@
         "title": "资产管理处",
         "docs": "https://docs.rsshub.app/university.html#nan-jing-da-xue-zi-chan-guan-li-chu",
         "source": [
+          "/tzgg/gyfytdglk/index.html",
+          "/tzgg/index.html",
           "/"
         ],
         "target": "/nju/zcc"
@@ -11855,6 +11949,28 @@
           "/"
         ],
         "target": "/qbittorrent/news"
+      }
+    ]
+  },
+  "qianzhan.com": {
+    "_name": "前瞻网",
+    ".": [
+      {
+        "title": "文章列表",
+        "docs": "https://docs.rsshub.app/finance.html#qian-zhan-wang",
+        "source": [
+          "/analyst",
+          "/analyst/list/:html"
+        ]
+      },
+      {
+        "title": "排行榜",
+        "docs": "https://docs.rsshub.app/finance.html#qian-zhan-wang",
+        "source": [
+          "/analyst",
+          "/"
+        ],
+        "target": "/qianzhan/analyst/rank"
       }
     ]
   },
@@ -13562,24 +13678,24 @@
       }
     ]
   },
-  "techflow520.com": {
+  "techflowpost.com": {
     "_name": "深潮TechFlow",
     ".": [
       {
-        "title": "分类",
-        "docs": "https://docs.rsshub.app/new-media.html#shen-chao-techflow-fen-lei",
+        "title": "首页",
+        "docs": "https://docs.rsshub.app/new-media.html#shen-chao-techflow-shou-ye",
         "source": [
           "/"
         ],
-        "target": "/techflow520/:category?"
+        "target": "/techflowpost"
       },
       {
         "title": "快讯",
         "docs": "https://docs.rsshub.app/new-media.html#shen-chao-techflow-kuai-xun",
         "source": [
-          "/newsflash"
+          "/express"
         ],
-        "target": "/techflow520/newsflash"
+        "target": "/techflowpost/express"
       }
     ]
   },
@@ -15709,6 +15825,27 @@
       }
     ]
   },
+  "yxdown.com": {
+    "_name": "游讯网",
+    ".": [
+      {
+        "title": "资讯",
+        "docs": "https://docs.rsshub.app/game.html#you-xun-wang",
+        "source": [
+          "/news/:category",
+          "/news"
+        ]
+      },
+      {
+        "title": "精彩推荐",
+        "docs": "https://docs.rsshub.app/game.html#you-xun-wang",
+        "source": [
+          "/"
+        ],
+        "target": "/yxdown/recommend"
+      }
+    ]
+  },
   "yxdzqb.com": {
     "_name": "游戏打折情报",
     ".": [
@@ -16263,39 +16400,6 @@
         "docs": "https://docs.rsshub.app/anime.html#hai-mao-ba",
         "source": "/catalog/:id",
         "target": "/haimaoba/:id"
-      }
-    ]
-  },
-  "manhuagui.com": {
-    "_name": "漫画柜",
-    "www": [
-      {
-        "title": "漫画更新",
-        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua",
-        "source": "/comic/:id/",
-        "target": "/manhuagui/comic/:id"
-      }
-    ]
-  },
-  "mhgui.com": {
-    "_name": "漫画柜镜像站",
-    "www": [
-      {
-        "title": "漫画更新",
-        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua-jing-xiang-zhan",
-        "source": "/comic/:id/",
-        "target": "/mhgui/comic/:id"
-      }
-    ]
-  },
-  "tw.manhuagui.com": {
-    "_name": "漫画柜台湾",
-    "www": [
-      {
-        "title": "漫画更新",
-        "docs": "https://docs.rsshub.app/anime.html#kan-man-hua-tai-wan",
-        "source": "/comic/:id/",
-        "target": "/twmanhuagui/comic/:id"
       }
     ]
   },
